@@ -1,8 +1,8 @@
 #include "sort.h"
 /**
- * bubble_sort - sort array lements from min to max value
- * @array: array
- * @size: array size
+ * bubble_sort - sort array elements from minimum to maximum value
+ * @array: the array
+ * @size: the size of the array
  */
 void bubble_sort(int *array, size_t size)
 {
