@@ -1,0 +1,22 @@
+#ifndef _SORT_H
+#define _SORT_H
+
+#include <stdlib.h>
+#include <stdio.h>
+#include <time.h>
+/**
+ * struct listint_s - Doubly linked list node
+ *
+ * @n: int stored in the node
+ * @prev: Pointer to the prev element of the list
+ * @next: Poiinter to the next element of the list
+ */
+typedef struct listint_s
+{
+	int n;
+	struct listint_s *prev;
+	struct listint_s *next;
+} listint_t;
+
+/* print */
+void print_array()
